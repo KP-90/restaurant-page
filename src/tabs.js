@@ -5,6 +5,7 @@ function tabs() {
     const menuTab = document.createElement("div");
     tabDiv.className = "tabDiv";
     mainTab.className = "tab";
+    mainTab.classList.add("active");
     mainTab.id = "mainTab";
     contactTab.className = "tab";
     contactTab.id = "contact";
